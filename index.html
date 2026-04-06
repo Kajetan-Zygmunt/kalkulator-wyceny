@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Kalkulator wyceny</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+<h1>Kalkulator wyceny strony</h1>
+
+<form id="formularz">
+
+  <h3>Wybierz usługi:</h3>
+
+  <label>
+    <input type="checkbox" class="usluga" value="1000" data-nazwa="Strona wizytówka">
+    Strona wizytówka (1000 zł)
+  </label><br>
+
+  <label>
+    <input type="checkbox" class="usluga" value="3000" data-nazwa="Sklep internetowy">
+    Sklep internetowy (3000 zł)
+  </label><br>
+
+  <label>
+    <input type="checkbox" class="usluga" value="500" data-nazwa="SEO">
+    SEO (500 zł)
+  </label>
+
+  <br><br>
+
+  <label>Liczba podstron:</label><br>
+  <input type="number" id="podstrony" value="1" min="1">
+
+  <br><br>
+
+  <label>Tryb realizacji:</label><br>
+  <select id="tryb">
+    <option value="1">Normalny</option>
+    <option value="1.5">Ekspresowy (+50%)</option>
+  </select>
+
+</form>
+
+<h2 id="wynik">Cena: 0 zł</h2>
+
+<p id="opis"></p>
+
+<button id="wyczysc">Wyczyść historię</button>
+
+<h3>Historia wycen:</h3>
+<ul id="historia"></ul>
+
+</body>
+</html>

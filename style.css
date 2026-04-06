@@ -1,0 +1,50 @@
+body {
+  font-family: Arial;
+  background-color: #eef2f7;
+  padding: 20px;
+}
+
+h1 {
+  color: #222;
+}
+
+form {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  width: 320px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+input, select {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+#wynik {
+  margin-top: 20px;
+  color: green;
+}
+
+#opis {
+  font-size: 14px;
+  color: #555;
+}
+
+ul {
+  background: white;
+  padding: 10px;
+  border-radius: 10px;
+  width: 320px;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+button {
+  padding: 8px;
+  cursor: pointer;
+}
